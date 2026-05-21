@@ -22,13 +22,13 @@ async function init() {
   const content = document.createElement("div");
 
   const infoParagraph = document.createElement("p");
-  infoParagraph.textContent = `서울시청`;
+  infoParagraph.textContent = `서울특별시 중구 세종대로 110`;
 
   content.appendChild(infoParagraph);
 
   const link = document.createElement("a");
-  link.href = "https://en.wikipedia.org/w/index.php?title=Uluru";
-  link.textContent = "https://en.wikipedia.org/w/index.php?title=Uluru";
+  link.href = "https://www.seoul.go.kr/";
+  link.textContent = "https://www.seoul.go.kr/";
   link.target = "_blank";
   content.appendChild(link);
 
