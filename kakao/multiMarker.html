@@ -13,15 +13,15 @@
   <body>
     <div id="map" class="map"></div>
 
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=발급받은 APP KEY를 사용하세요"></script>
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2c5add028e5a5a40288ccb3c1abcfb3a"
+    ></script>
     <script>
       var mapContainer = document.getElementById("map"), // 지도를 표시할 div
         mapOption = {
-          center: new kakao.maps.LatLng(
-            (37.5175066 + 37.566242 + 37.5509103) / 3,
-            (127.0473753 + 126.9019425 + 126.8495742) / 3,
-          ), // 지도의 중심좌표
-          level: 12, // 지도의 확대 레벨
+          center: new kakao.maps.LatLng((37.5175066 + 37.566242) / 2, (127.0473753 + 126.8495742) / 2), // 지도의 중심좌표
+          level: 7, // 지도의 확대 레벨
         };
 
       var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
